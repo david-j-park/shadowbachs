@@ -8,7 +8,7 @@ export default function Home() {
       <Head>
         <title>Shadow Bachs</title>
         <link rel="preconnect" href="https://fonts.googleapis.com"></link>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin></link>
         <link href="https://fonts.googleapis.com/css2?family=Charmonman:wght@700&family=Dawning+of+a+New+Day&display=swap" rel="stylesheet"></link>
       </Head>
       <div className={styles.bgpic}>
