@@ -24,8 +24,8 @@ export default function Home() {
       
       <div>
         <p className={styles.reg}>Shadow Bachs is a New York City-based band that knows how to ride a deep groove. 
-        Born from the primordial ooze of the downtown New York warehouse scene and the glitz of CBGB’s, Shadow Bachs has 
-        graced such stages as the Bitter End, Arlene's Grocery, and the Shrine. The band draws inspriation from
+        Born from the primordial ooze of the downtown New York warehouse scene and the glitz of CBGB&apos;s, Shadow Bachs has 
+        graced such stages as the Bitter End, Arlene&apos;s Grocery, and the Shrine. The band draws inspriation from
         such disparate voices as Lou Reed, Talk Talk, Weezer, Alborosie, and the Tom Tom Club. Dave and Sam on bass and drums 
         anchor the outfit from the bottom up, with solid, danceable, pinpoint precision. Harry Chronic, a 
         singer/songwriter/guitarist of uncommon subtlety, fronts the band. Dan Schwartzman provides a melodic 
