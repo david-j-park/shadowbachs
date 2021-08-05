@@ -12,14 +12,11 @@
 }
 
 .title {
-  opacity: 0;
-  font-size: 4rem;
+  font-size: 5rem;
   color: rgb(218, 4, 4);
   font-family: Charmonman;
-  animation: fadein;
-  animation-duration: 1s;
-  animation-delay: .5s;
-  animation-fill-mode: forwards;
+  text-align: center;
+  line-height: 80%;
 }
 
 p.reg {
@@ -30,4 +27,16 @@ p.reg {
 @keyframes fadein {
   from { font-size: 4rem; opacity: 0}
   to { font-size: 7rem; opacity: 1}
+}
+
+@media only screen and (min-width: 768px){
+  .title {
+    font-size: 4rem;
+    opacity: 0;
+    animation: fadein;
+    animation-duration: 1s;
+    animation-delay: .5s;
+    animation-fill-mode: forwards;
+  
+  }
 }
