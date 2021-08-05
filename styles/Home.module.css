@@ -9,12 +9,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: -1
 }
 
 .title {
   font-size: 5rem;
   color: rgb(218, 4, 4);
-  font-family: Charmonman;
+  font-family: 'Sonsie One';
   text-align: center;
   line-height: 80%;
 }
@@ -24,9 +25,34 @@ p.reg {
   padding: 25px;
 }
 
+.weejo {
+  opacity: 0.5;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.player {
+  background-image: url('/arlenes.jpeg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh
+}
+
+.full {
+  min-width: 100%;
+  min-height: 100%;
+  
+}
+
 @keyframes fadein {
   from { font-size: 4rem; opacity: 0}
-  to { font-size: 7rem; opacity: 1}
+  to { font-size: 8rem; opacity: 1}
 }
 
 @media only screen and (min-width: 768px){
@@ -37,6 +63,6 @@ p.reg {
     animation-duration: 1s;
     animation-delay: .5s;
     animation-fill-mode: forwards;
-  
+    text-shadow: 5px 5px 6px rgb(93, 21, 187);
   }
 }
