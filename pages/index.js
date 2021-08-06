@@ -33,7 +33,7 @@ export default function Home() {
         punch on keys. Rich vocal harmonies round out the sound that begs you to move.</p>
         </div>
         <div className={styles['col-1_3']} style={{paddingTop: '25px', paddingBottom: '25px'}}>
-        <iframe width="100%" height="300" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1101000541&color=%23ff0000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div className={styles.soundcloud}><a href="https://soundcloud.com/sam-hurlbut" title="Shadow Bachs" target="_blank" rel="noreferrer" className={styles.sc_link}>Shadow Bachs</a> · <a href="https://soundcloud.com/sam-hurlbut/david-peel" title="David Peel" target="_blank" rel="noreferrer" className={styles.sc_link}>David Peel</a></div>
+        <iframe width="100%" height="300" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1101000541&color=%23ff0000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div className={styles.soundcloud}><a href="https://soundcloud.com/sam-hurlbut" title="Shadow Bachs" target="_blank" rel="noreferrer" className={styles.sc_link}>Shadow Bachs</a> · <a href="https://soundcloud.com/shadowbachs/david-peel" title="David Peel" target="_blank" rel="noreferrer" className={styles.sc_link}>David Peel</a></div>
         </div>
       </div>
       <div className={styles.player}>
