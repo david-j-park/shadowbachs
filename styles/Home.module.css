@@ -5,7 +5,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: none;
-  background-attachment: fixed;
+  background-attachment: scroll;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -39,7 +39,7 @@ p.reg {
 .player {
   background-image: url('/arlenes.jpeg');
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: cover;
   height: 100vh
 }
@@ -64,5 +64,9 @@ p.reg {
     animation-delay: .5s;
     animation-fill-mode: forwards;
     text-shadow: 5px 5px 6px rgb(93, 21, 187);
+  }
+
+  .player, .bgpic {
+    background-attachment: fixed;
   }
 }
