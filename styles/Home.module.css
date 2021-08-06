@@ -49,6 +49,14 @@ p.reg {
   
 }
 
+.soundcloud {
+  font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;
+}
+
+.sc_link {
+  color: #cccccc; text-decoration: none;
+}
+
 @keyframes fadein {
   from { font-size: 4rem; opacity: 0}
   to { font-size: 8rem; opacity: 1}
@@ -67,5 +75,20 @@ p.reg {
 
   .player, .bgpic {
     background-attachment: fixed;
+  }
+
+  .flexy {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .col-2_3 {
+    width: 60%;
+    margin: 0;
+  }
+
+  .col-1_3 {
+    width: 33%;
+    margin: 0;
   }
 }

@@ -22,7 +22,8 @@ export default function Home() {
       </div>
       </div>
       
-      <div>
+      <div className={styles.flexy}>
+        <div className={styles['col-2_3']}>
         <p className={styles.reg}>Shadow Bachs is a New York City-based band that knows how to ride a deep groove. 
         Born from the primordial ooze of the downtown New York warehouse scene and the glitz of CBGB&apos;s, Shadow Bachs has 
         graced such stages as the Bitter End, Arlene&apos;s Grocery, and the Shrine. The band draws inspriation from
@@ -30,9 +31,12 @@ export default function Home() {
         anchor the outfit from the bottom up, with solid, danceable, pinpoint precision. Harry Chronic, a 
         singer/songwriter/guitarist of uncommon subtlety, fronts the band. Dan Schwartzman provides a melodic 
         punch on keys. Rich vocal harmonies round out the sound that begs you to move.</p>
+        </div>
+        <div className={styles['col-1_3']} style={{paddingTop: '25px', paddingBottom: '25px'}}>
+        <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1101000541&color=%23ff0000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div className={styles.soundcloud}><a href="https://soundcloud.com/sam-hurlbut" title="Shadow Bachs" target="_blank" className={styles.sc_link}>Shadow Bachs</a> · <a href="https://soundcloud.com/sam-hurlbut/david-peel" title="David Peel" target="_blank" className={styles.sc_link}>David Peel</a></div>
+        </div>
       </div>
       <div className={styles.player}>
-        
       </div>
       
     </div>
