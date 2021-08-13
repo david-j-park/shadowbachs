@@ -40,7 +40,10 @@ p.reg {
   background-position: center;
   background-attachment: scroll;
   background-size: cover;
-  height: 100vh
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .full {
@@ -57,12 +60,29 @@ p.reg {
   color: #cccccc; text-decoration: none;
 }
 
+.fb_wrap {
+  padding: 25px;
+}
+
+.contact {
+  background-color: #222;
+  color: white;
+}
+
+.contact p {
+  font-size: 1.5rem;
+}
+
+.contact a {
+  color: inherit;
+}
+
 @keyframes fadein {
   from { font-size: 4rem; opacity: 0}
   to { font-size: 8rem; opacity: 1}
 }
 
-@media only screen and (min-device-width: 1100px){
+@media only screen and (min-width: 1100px){
   .title {
     font-size: 4rem;
     opacity: 0;
@@ -77,18 +97,16 @@ p.reg {
     background-attachment: fixed;
   }
 
+  .player {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+
   .flexy {
     display: flex;
     flex-direction: row;
   }
 
-  .col-2_3 {
-    width: 60%;
-    margin: 0;
-  }
-
-  .col-1_3 {
-    width: 33%;
-    margin: 0;
-  }
+  
 }
