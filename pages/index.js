@@ -33,7 +33,8 @@ export default function Home() {
         punch on keys. Rich vocal harmonies round out the sound that begs you to move.</p>
         </div>
         <div className="col-1_3" style={{paddingTop: '25px', paddingBottom: '25px'}}>
-        <iframe width="100%" height="300" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1299435478&color=%23ff0000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div className={styles.soundcloud}><a href="https://soundcloud.com/shadowbachs" title="Shadow Bachs" target="_blank" rel="noreferrer" className={styles.sc_link}>Shadow Bachs</a> · <a href="https://soundcloud.com/shadowbachs/sets/shadow-bachs-calling-card" title="Shadow Bachs Calling Card" target="_blank" rel="noreferrer" className={styles.sc_link}>Shadow Bachs Calling Card</a></div>
+        <iframe style={{borderRadius: '12px'}} src="https://open.spotify.com/embed/album/6nt4zUiasBqR5A3Pk2uxGH?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        <p><a href="https://music.apple.com/us/album/shadow-bachs/1632324591"><img src="/ListenOnApple.svg"></img></a></p>
         </div>
       </div>
       <div className={styles.player}>
